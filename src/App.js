@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const localStoragedata = localStorage.getItem("Logged")
 
-    if (localStoragedata === '1') {
+    if (localStoragedata === '2') {
       setIsLoggedIn(true)
     }
 
